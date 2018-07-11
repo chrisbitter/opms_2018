@@ -1,19 +1,20 @@
-## Welcome to GitHub Pages
+## Summer School 2018
 
-You can use the [editor on GitHub](https://github.com/sloumotion/summerschool_2018/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the Summer School 2018 Course "Object-Oriented Programming In Mechatronic Systems"
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+On this webpage, you will find slides, exercise sheets, code for the exercises and solutions.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Module 1
 
-```markdown
-Syntax highlighted code block
+# Module 2
+# Module 3
+# Module 4
+# Module 5
+# Module 6
+# Module 7
+# Final Project
 
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
