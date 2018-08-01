@@ -10,11 +10,28 @@ On this website you will find slides, exercise sheets, code for the exercises an
 
 ### Timetable
 
+### Useful links
+
+[Timetable](res/timetable.pdf)
+
 
 
 ### Module 1
 
-[Slides](res/Exercise5.pdf)
+#### Topics
+- Introduction and Motivation
+- Algorithms and Programming Languages
+- The Java Programming Language
+- Structure of a Java Program
+- Variables
+
+[Slides](res/Slides/Module1.pdf)
+[Exercise](res/module1/Exercise1.pdf)
+
+```
+[Exercise Solutions](res/module1/Exercise1_Solutions.pdf)
+[Exercise Coding Solutions](res/module1/Exercise1_Solutions.zip)
+```
 
 ### Module 2
 ### Module 3
