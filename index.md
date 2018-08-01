@@ -1,6 +1,5 @@
-
+# Summer School OPMS 2018
 # Object-Oriented Programming In Mechatronic Systems
-## Summer School 2018
 
 Hello and welcome to the Summer School 2018 Course "Object-Oriented Programming In Mechatronic Systems".
 
@@ -12,8 +11,9 @@ On this website you will find slides, exercise sheets, code for the exercises an
 
 #### Useful links
 
-[Eclipse Download Windows](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-win32.zip)
-[Eclipse Download Linux](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-linux-gtk.tar.gz)
+Eclipse Download
+[Windows](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-win32.zip)
+[Linux](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-linux-gtk.tar.gz)
 
 [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
@@ -30,13 +30,16 @@ On this website you will find slides, exercise sheets, code for the exercises an
 - Variables
 
 
-[Slides](res/Slides/Module1.pdf)
-[Exercise](res/module1/Exercise1.pdf)
+[Lecture Slides](res/Slides/Module1.pdf)
 
-```
+[Exercise Sheet](res/module1/Exercise1.pdf)
+
+
+<!--
 [Exercise Solutions](res/module1/Exercise1_Solutions.pdf)
 [Exercise Coding Solutions](res/module1/Exercise1_Solutions.zip)
-```
+-->
+
 
 ### Module 2
 ### Module 3
