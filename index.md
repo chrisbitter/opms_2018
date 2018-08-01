@@ -20,9 +20,11 @@ Eclipse Download
 [Java API](https://docs.oracle.com/javase/8/docs/api/index.html)
 
 
-### Module 1
+### Course Materials
 
-#### Topics
+#### Module 1
+
+##### Topics
 - Introduction and Motivation
 - Algorithms and Programming Languages
 - The Java Programming Language
@@ -41,13 +43,13 @@ Eclipse Download
 -->
 
 
-### Module 2
-### Module 3
-### Module 4
-### Module 5
-### Module 6
-### Module 7
-### Final Project
+#### Module 2
+#### Module 3
+#### Module 4
+#### Module 5
+#### Module 6
+#### Module 7
+#### Final Project
 
 
 - Bulleted
