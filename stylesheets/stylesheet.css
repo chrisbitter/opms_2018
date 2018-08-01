@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+h2 {
+    padding-top: 20px;
+}
+
 h1 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -100,13 +104,12 @@ footer p {
 a {
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px dotted #666;
+
     color: inherit;
     text-shadow: none;
 }
 
 a:hover, a:focus {
-    border-bottom: 1px solid #0090ff;
 }
 
 em {
