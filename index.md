@@ -8,12 +8,16 @@ On this website you will find slides, exercise sheets, code for the exercises an
 
 ## Materials
 
-### Timetable
-
-### Useful links
-
 [Timetable](res/timetable.pdf)
 
+#### Useful links
+
+[Eclipse Download Windows](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-win32.zip)
+[Eclipse Download Linux](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-linux-gtk.tar.gz)
+
+[Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+[Java API](https://docs.oracle.com/javase/8/docs/api/index.html)
 
 
 ### Module 1
@@ -24,6 +28,7 @@ On this website you will find slides, exercise sheets, code for the exercises an
 - The Java Programming Language
 - Structure of a Java Program
 - Variables
+
 
 [Slides](res/Slides/Module1.pdf)
 [Exercise](res/module1/Exercise1.pdf)
