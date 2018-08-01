@@ -1,4 +1,4 @@
-## OPMS
+
 ## Summer School 2018
 ### Object-Oriented Programming In Mechatronic Systems
 
