@@ -2,9 +2,13 @@
 ## Summer School 2018
 ### Object-Oriented Programming In Mechatronic Systems
 
+
 Welcome to the Summer School 2018 Course "Object-Oriented Programming In Mechatronic Systems"
 
 On this webpage, you will find slides, exercise sheets, code for the exercises and solutions.
+
+
+
 
 ## Materials
 
