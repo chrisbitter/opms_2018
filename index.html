@@ -28,230 +28,267 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
     <title>OPMS Summer School 2018</title>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-    <header class="inner">
+<div id="app">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
 
-        <h1 id="project_title">Summer School OPMS 2018</h1>
-        <h2 id="project_tagline">Object-Oriented Programming In Mechatronic Systems</h2>
-    </header>
-</div>
-
-<!--section class="outer">
-    <div class="downloads inner">
-      <a class="zip_download_link" href="#">Download .zip</a>
-      <a class="tar_download_link" href="#">Download .tar.gz</a>
+            <h1 id="project_title">Summer School OPMS 2018</h1>
+            <h2 id="project_tagline">Object-Oriented Programming In Mechatronic Systems</h2>
+        </header>
     </div>
-</section-->
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+
+            <div id="0">
 
 
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
+                <h1>Hello and Welcome</h1>
+                <p>
+                    Hello and Welcome to the Summer School 2018 Course "Object-Oriented Programming In Mechatronic
+                    Systems".
+                    On this website you will find slides, exercise sheets, code for the exercises and solutions.
+                    <br>
+                    <br>
+                    The timetable of the course can be found <a href="./res/timetable.pdf">here</a>.
+                    <br>
+                    <br>
+                    If you have any questions or comments, feel free to <a
+                        href="mailto:max.hoffmann@ima-ifu.rwth-aachen.de">Email
+                    us</a>.
+                </p>
 
-        <h1>Hello and Welcome</h1>
-        <p>
-            Hello and Welcome to the Summer School 2018 Course "Object-Oriented Programming In Mechatronic Systems".
-            On this website you will find slides, exercise sheets, code for the exercises and solutions.
-            <br>
-            <br>
-            The timetable of the course can be found <a href="./res/timetable.pdf">here</a>.
-            <br>
-            <br>
-            If you have any questions or comments, feel free to <a href="mailto:max.hoffmann@ima-ifu.rwth-aachen.de">Email
-            us</a>.
-        </p>
+                <h2>Useful links</h2>
 
-        <h2>Useful links</h2>
+                <p>
 
-        <p>
+                    Eclipse IDE Download
+                    <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-win32.zip&r=1">Windows</a>
+                    <!--a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-linux-gtk.tar.gz">Linux</a-->
+                    <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-macosx-cocoa-x86_64.dmg&r=1">Mac</a>
+                    <br>
+                    <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java 8
+                        JDK
+                        Download</a>
 
-            Eclipse IDE Download
-            <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-win32.zip&r=1">Windows</a>
-            <!--a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-linux-gtk.tar.gz">Linux</a-->
-            <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-dsl-photon-R-macosx-cocoa-x86_64.dmg&r=1">Mac</a>
-            <br>
-            <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java 8 JDK Download</a>
+                    <br>
+                    <a href="https://docs.oracle.com/javase/8/docs/api/index.html">Java API</a>
 
-            <br>
-            <a href="https://docs.oracle.com/javase/8/docs/api/index.html">Java API</a>
+                    <br>
+                    <a href="https://cybernetics-lab.de/en/">Website of the Cybernetics Lab</a>
+                </p>
 
-            <br>
-            <a href="https://cybernetics-lab.de/en/">Website of the Cybernetics Lab</a>
-        </p>
-
-
-        <h2>Course Materials</h2>
-        <hr/>
-
-        <h3>Module 1 - Introduction to Programming</h3>
-
-        <h4>Topics</h4>
-        <ul>
-            <li>Introduction and Motivation</li>
-            <li>Algorithms and Programming Languages</li>
-            <li>The Java Programming Language</li>
-            <li>Structure of a Java Program</li>
-            <li>Variables</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li>
-                <a href="./res/Slides/OPMS2018-Module1.pdf">Lecture Slides</a>
-            </li>
-            <li>
-                <a href="./res/OPMS2018-Preliminaries.pdf">Exercise Preliminaries: Eclipse Installation Instructions</a>
-            </li>
-            <li>
-                <a href="./res/Exercises/OPMS2018-Exercise1.pdf">Exercise Sheet</a>
-            </li>
-            <li>
-                <a href="./res/Solutions/OPMS2018-Exercise1_Solutions.zip">Exercise Solutions</a>
-            </li>
-            <!--li><a href="./res/module1/Exercise1_Solutions.zip">Exercise Code Solutions</a></li-->
-        </ul>
-
-        <hr/>
-        <h3>Module 2 - Basics of the Java Programming Language</h3>
-
-        <h4>Topics</h4>
-        <ul>
-            <li>Control Flow Statements</li>
-            <li>Arrays</li>
-            <li>Strings</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module2.pdf">Lecture Slides</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise2.pdf">Exercise Sheet</a></li>
-            <li><a href="./res/Solutions/OPMS2018-Exercise2_Solutions.zip">Exercise Solutions</a></li>
-        </ul>
-        <hr/>
-        <h3>Module 3 - Basics in Object-Oriented Programming in Java</h3>
-
-        <h4>Topics</h4>
-        <ul>
-            <li>Introduction to Object-Oriented Programming</li>
-            <li>Object-Oriented Programming in Java</li>
-            <li>Methods</li>
-            <li>Constructors</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module3.pdf">Lecture Slides</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise3.pdf">Exercise Sheet</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise3_Template.zip">Exercise Template</a></li>
-            <li><a href="./res/Solutions/OPMS2018-Exercise3_Solutions.zip">Exercise Solutions</a></li>
-        </ul>
-        <hr/>
-        <h3>Module 4 - Advanced Programming in Java</h3>
-        <h4>Topics</h4>
-        <ul>
-            <li>Communication and Relationships between Objects</li>
-            <li>Exception Handling</li>
-            <li>The Java API</li>
-            <li>Data Structures</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module4.pdf">Lecture Slides</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise4.pdf">Exercise Sheet</a></li>
-            <li><a href="./res/Solutions/OPMS2018-Exercise4_Solutions.zip">Exercise Solutions</a></li>
-        </ul>
-        <hr/>
-        <h3>Module 5 - Implementing Real-World Applications with Java</h3>
-        <h4>Topics</h4>
-        <ul>
-            <li>The keyword <i>static</i></li>
-            <li>Implementation of Exemplary Applications</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module5.pdf">Lecture Slides</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise5.pdf">Exercise Sheet</a></li>
-            <li><a href="./res/Solutions/OPMS2018-Exercise5_Solutions.zip">Exercise Solutions</a></li>
-        </ul>
-        <hr/>
-        <h3>Module 6 - Introduction to UML</h3>
-        <h4>Topics</h4>
-        <ul>
-            <li>Unified Modeling Language (UML)</li>
-            <li>Activity Diagrams</li>
-            <li>Class Diagrams</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module6.pdf">Lecture Slides</a></li>
-            <li><a href="./res/Exercises/OPMS2018-Exercise6.pdf">Exercise Sheet</a></li>
-        </ul>
-        <hr/>
-        <!--<h3>Module 7 - Introduction to Mechatronic Systems</h3>
-        <h4>Topics</h4>
-        <ul>
-            <li>Excursus: Introduction to Mechatronic Systems</li>
-        </ul>
-
-        <h4>Material</h4>
-        <ul>
-            <li><a href="./res/Slides/OPMS2018-Module7.pdf">Lecture Slides</a></li>
-        </ul>
-        <hr/>-->
-        <h3>Final Project</h3>
-
-        <li><a href="./res/OPMS2018-Setup_Instructions.pdf">Setup Instructions</a></li>
-        <li><a href="https://gigamove.rz.rwth-aachen.de/d/id/Gd9np9TcL9mwAa">Installation Files</a></li>
-        <li>Link to Lejos Package in Eclipse: http://www.lejos.org/tools/eclipse/plugin/nxj/</li>
-        <li><a href="./res/opms-project_template.zip">Project Template</a></li>
-
-        <br>
-        <!--a href="https://www.lego.com/en-us/mindstorms/downloads">NXT Fantom Driver Download Page</a-->
-
-
-
-    </section>
-</div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-    <footer class="inner">
-
-        <div class="row">
-            <div class="col">
-                IMA & IfU Cybernetics Lab<br>
-                RWTH Aachen University<br>
-                Dennewartstr. 27<br>
-                D - 52068 Aachen<br>
             </div>
-            <div class="col">
-                <div class="text-center">
-                    <h4>Around the web</h4>
-                <a class="social-link" href="https://cybernetics-lab.de/en/"><i
-                        class="social-icon fas fa-3x fa-globe"></i></a>
 
-                <a class="social-link" href="https://www.youtube.com/user/IMAZLWIfU"><i
-                        class="social-icon fab fa-3x fa-youtube"></i></a>
+
+            <h2>Course Materials</h2>
+            <hr/>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 1}">
+                <h3>Module 1 - Introduction to Programming</h3>
+
+                <h4>Topics</h4>
+                <ul>
+                    <li>Introduction and Motivation</li>
+                    <li>Algorithms and Programming Languages</li>
+                    <li>The Java Programming Language</li>
+                    <li>Structure of a Java Program</li>
+                    <li>Variables</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li>
+                        <a href="./res/Slides/OPMS2018-Module1.pdf">Lecture Slides</a>
+                    </li>
+                    <li>
+                        <a href="./res/OPMS2018-Preliminaries.pdf">Exercise Preliminaries: Eclipse Installation
+                            Instructions</a>
+                    </li>
+                    <li>
+                        <a href="./res/Exercises/OPMS2018-Exercise1.pdf">Exercise Sheet</a>
+                    </li>
+                    <li v-if="current_lecture > 1">
+                        <a href="./res/Solutions/OPMS2018-Exercise1_Solutions.zip">Exercise Solutions</a>
+                    </li>
+                    <!--li><a href="./res/module1/Exercise1_Solutions.zip">Exercise Code Solutions</a></li-->
+                </ul>
+
+            </div>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 2}">
+                <h3>Module 2 - Basics of the Java Programming Language</h3>
+
+                <h4>Topics</h4>
+                <ul>
+                    <li>Control Flow Statements</li>
+                    <li>Arrays</li>
+                    <li>Strings</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li><a href="./res/Slides/OPMS2018-Module2.pdf">Lecture Slides</a></li>
+                    <li><a href="./res/Exercises/OPMS2018-Exercise2.pdf">Exercise Sheet</a></li>
+                    <li v-if="current_lecture > 2"><a href="./res/Solutions/OPMS2018-Exercise2_Solutions.zip">Exercise
+                        Solutions</a></li>
+                </ul>
+
+            </div>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 3}">
+                <h3>Module 3 - Basics in Object-Oriented Programming in Java</h3>
+
+                <h4>Topics</h4>
+                <ul>
+                    <li>Introduction to Object-Oriented Programming</li>
+                    <li>Object-Oriented Programming in Java</li>
+                    <li>Methods</li>
+                    <li>Constructors</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li><a href="./res/Slides/OPMS2018-Module3.pdf">Lecture Slides</a></li>
+                    <li><a href="./res/Exercises/OPMS2018-Exercise3.pdf">Exercise Sheet</a></li>
+                    <li v-if="current_lecture > 3"><a href="./res/Solutions/OPMS2018-Exercise3_Solutions.zip">Exercise
+                        Solutions</a></li>
+                </ul>
+            </div>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 4}">
+                <h3>Module 4 - Advanced Programming in Java</h3>
+                <h4>Topics</h4>
+                <ul>
+                    <li>Communication and Relationships between Objects</li>
+                    <li>Exception Handling</li>
+                    <li>The Java API</li>
+                    <li>Data Structures</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li><a href="./res/Slides/OPMS2018-Module4.pdf">Lecture Slides</a></li>
+                    <li><a href="./res/Exercises/OPMS2018-Exercise4.pdf">Exercise Sheet</a></li>
+                    <li v-if="current_lecture > 4"><a href="./res/Solutions/OPMS2018-Exercise4_Solutions.zip">Exercise Solutions</a></li>
+                </ul>
+            </div>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 5}">
+                <h3>Module 5 - Implementing Real-World Applications with Java</h3>
+                <h4>Topics</h4>
+                <ul>
+                    <li>The keyword <i>static</i></li>
+                    <li>Implementation of Exemplary Applications</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li><a href="./res/Slides/OPMS2018-Module5.pdf">Lecture Slides</a></li>
+                    <li><a href="./res/Exercises/OPMS2018-Exercise5.pdf">Exercise Sheet</a></li>
+                    <li v-if="current_lecture > 5"><a href="./res/Solutions/OPMS2018-Exercise5_Solutions.zip">Exercise Solutions</a></li>
+                </ul>
+            </div>
+
+            <div v-bind:class="{'current-lecture':current_lecture == 6}">
+                <h3>Module 6 - Introduction to UML</h3>
+                <h4>Topics</h4>
+                <ul>
+                    <li>Unified Modeling Language (UML)</li>
+                    <li>Activity Diagrams</li>
+                    <li>Class Diagrams</li>
+                </ul>
+
+                <h4>Material</h4>
+                <ul>
+                    <li><a href="./res/Slides/OPMS2018-Module6.pdf">Lecture Slides</a></li>
+                    <li><a href="./res/Exercises/OPMS2018-Exercise6.pdf">Exercise Sheet</a></li>
+                    <li v-if="current_lecture > 6"></li>
+                </ul>
+            </div>
+            <!--<h3>Module 7 - Introduction to Mechatronic Systems</h3>
+            <h4>Topics</h4>
+            <ul>
+                <li>Excursus: Introduction to Mechatronic Systems</li>
+            </ul>
+
+            <h4>Material</h4>
+            <ul>
+                <li><a href="./res/Slides/OPMS2018-Module7.pdf">Lecture Slides</a></li>
+            </ul>
+            <hr/>-->
+            <div v-bind:class="{'current-lecture':current_lecture == 7}">
+                <h3>Final Project</h3>
+
+                <li><a href="./res/OPMS2018-Setup_Instructions.pdf">Setup Instructions</a></li>
+                <li><a href="https://gigamove.rz.rwth-aachen.de/d/id/95wWLbhqPT6ABF">Installation Files</a></li>
+                <li>Link to Lejos Package in Eclipse: http://www.lejos.org/tools/eclipse/plugin/nxj/</li>
+                <li><a href="./res/opms-project_template.zip">Project Template</a></li>
+
+            </div>
+            <!--a href="https://www.lego.com/en-us/mindstorms/downloads">NXT Fantom Driver Download Page</a-->
+
+
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+
+            <div class="row">
+                <div class="col">
+                    IMA & IfU Cybernetics Lab<br>
+                    RWTH Aachen University<br>
+                    Dennewartstr. 27<br>
+                    D - 52068 Aachen<br>
                 </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Around the web</h4>
+                        <a class="social-link" href="https://cybernetics-lab.de/en/"><i
+                                class="social-icon fas fa-3x fa-globe"></i></a>
 
+                        <a class="social-link" href="https://www.youtube.com/user/IMAZLWIfU"><i
+                                class="social-icon fab fa-3x fa-youtube"></i></a>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <a class="float-right" href="https://cybernetics-lab.de/en/"><img height="40px"
+                                                                                      src="./res/logo_imaifu_bw.png"></a>
+                </div>
             </div>
-            <div class="col">
-                <a class="float-right" href="https://cybernetics-lab.de/en/"><img height="40px" src="./res/logo_imaifu_bw.png"></a>
-            </div>
-        </div>
 
 
-    </footer>
+        </footer>
+    </div>
+
 </div>
+
+<script>
+
+    var app = new Vue({
+        el: '#app',
+
+        data: {
+
+            current_lecture: 1
+
+        },
+        methods: {}
+    })
+
+</script>
 
 </body>
 

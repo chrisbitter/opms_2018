@@ -88,6 +88,17 @@ footer p {
     color: #212121;
 }
 
+.current-lecture {
+    border-style: solid;
+    border-color: #8EBAE5;
+    border-width: 3px;
+    background-color: #E8F1FA;
+}
+
+.past-lecture {
+
+}
+
 .social-link, .social-link:hover, .social-link:focus {
     border-bottom: none; !important;
 }
