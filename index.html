@@ -247,7 +247,7 @@
                 <li>Link to Lejos Package in Eclipse: http://www.lejos.org/tools/eclipse/plugin/nxj/</li>
                 <li><a href="./res/FinalProject/OPMS2018-Final_Project.zip">Project Template</a></li>
                 <li><a href="./res/FinalProject/OPMS2018-Final_Project.pdf">Project Tasks Sheet</a></li>
-                <li v-if="current_lecture > 6"><a href="./res/FinalProject/OPMS2018-Final_Project_Solutions.zip">Project Solutions</a></li>
+                <li v-if="current_lecture > 7"><a href="./res/FinalProject/OPMS2018-Final_Project_Solutions.zip">Project Solutions</a></li>
 
             </div>
 
@@ -298,11 +298,40 @@
         },
         methods: {},
 
-        // computed: {
-        //     current_lecture: function () {
-        //         return 7
-        //     }
-        // }
+        computed: {
+            current_lecture: function () {
+
+                var current_date = new Date()
+
+                var result = 1;
+
+                if (current_date > new Date('2018-08-28T12:00:00')) {
+                    result = 2;
+                }
+                if (current_date > new Date('2018-08-29T12:00:00')) {
+                    result = 3;
+                }
+                if (current_date > new Date('2018-08-29T17:00:00')) {
+                    result = 4;
+                }
+                if (current_date > new Date('2018-08-30T12:00:00')) {
+                    result = 5;
+                }
+                if (current_date > new Date('2018-08-30T17:00:00')) {
+                    result = 6;
+                }
+                if (current_date > new Date('2018-08-31T12:00:00')) {
+                    result = 7;
+                }
+                if (current_date > new Date('2018-09-03T17:00:00')) {
+                    result = 8;
+                }
+
+                return result
+
+
+            }
+        }
     })
 
 </script>
