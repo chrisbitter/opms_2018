@@ -222,7 +222,7 @@
                 <ul>
                     <li><a href="./res/Slides/OPMS2018-Module6.pdf">Lecture Slides</a></li>
                     <li><a href="./res/Exercises/OPMS2018-Exercise6.pdf">Exercise Sheet</a></li>
-                    <li v-if="current_lecture > 6"></li>
+                    <li v-if="current_lecture > 6"><a href="./res/Solutions/OPMS2018-Exercise6_Solutions.zip">Exercise Solutions</a></li>
                 </ul>
             </div>
 
@@ -240,7 +240,7 @@
             </ul>
             <hr/>-->
             <div v-bind:class="{'current-lecture':current_lecture == 7}">
-                <h3>Final Project</h3>
+                <h3>Final Project - Introduction to Mechatronic Systems</h3>
 
                 <li><a href="./res/FinalProject/OPMS2018-Setup_Instructions.pdf">Setup Instructions</a></li>
                 <li><a href="./res/FinalProject/Installation_Files.zip">Installation Files</a></li>
@@ -295,10 +295,14 @@
 
         data: {
 
-            current_lecture: 1
-
         },
-        methods: {}
+        methods: {},
+
+        computed: {
+            current_lecture: function () {
+                return 7
+            }
+        }
     })
 
 </script>
