@@ -79,7 +79,6 @@ h6 {
 }
 
 p {
-    font-family: "Roboto Slab",
     font-size: 18px;
     margin: 0px 0 15px 0;
 }
@@ -238,19 +237,6 @@ Full-Width Styles
     margin: 0 auto;
 }
 
-#forkme_banner {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 10px;
-    z-index: 10;
-    padding: 10px 20px 10px 50px;
-    color: #fff;
-    background: url('../images/blacktocat.svg') #0090ff no-repeat 8% 50%;
-    background-size: 25px;
-    font-weight: 700;
-    border: none;
-}
 
 #forkme_banner:hover {
     background-color: #1883ed;
@@ -280,16 +266,6 @@ header {
     font-size: 36px;
     font-weight: 300;
     background: none;
-}
-
-.downloads {
-    display: block;
-    padding-left: 50px;
-    color: #f2f2f2;
-    position: relative;
-    height: 70px;
-    background: url(../images/download.svg) no-repeat center left;
-    background-size: 25px 20px;
 }
 
 .downloads a {
